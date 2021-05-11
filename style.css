@@ -1,0 +1,72 @@
+body {
+	background-image: url(2.png);
+
+}
+.logo {
+	width: 600px;
+	height: 600px;
+	margin-left: 29%;
+	margin-top: -10%;
+	}
+.text {
+	margin: 0px auto;
+	margin-top: -10%;
+	width: 50%;
+	background-color: rgb(70, 70, 70);
+	border: 5px solid rgb(50, 50, 50);
+	border-radius: 10px;
+	height: 200px;
+}
+.opisanion {
+	padding: 10px;
+	color: white;
+}
+.download {
+	padding: 10px;
+	color: white;
+}
+#reworld {
+	color: rgb(0, 0, 0);
+}
+
+.podval {
+	margin-top: 10%;
+	width: 100%;
+	height: 45px;
+	border: 2px solid rgb(80, 80, 80);
+	border-radius: 20px;
+	background-color: rgb(60, 60, 60);
+	padding-top: 20px;
+}
+
+#myVk {
+	color: rgb(60, 145, 255);
+	margin-left: 3%;
+}
+
+#myPatr {
+	color: orange;
+	margin-left: 3%;
+}
+
+#lib {
+	color: rgb(255, 255, 255);
+	padding-left: 80%;
+}
+@media screen and (max-width: 1024px){
+	.logo {
+		margin-left: 21%;
+	}
+	.text {
+		margin-top: -10%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.text {
+		width: 60%;
+	}
+	.opisanion {
+		font-size: 40px;
+	}
+}
